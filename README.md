@@ -4,8 +4,7 @@
 - 0X01 Introduction
 - 0X02 Installation
 - 0x03 Testing
-- 0x04 usage
-- 0x05 Authors
+- 0x04 Authors
 
 ### Introduction
 Team project to build a clone of AirBnB.
@@ -26,4 +25,19 @@ git clone https://github.com/Eddyamon/AirBnB_clone.git
 
 
 change to the AirBnb directory and run the command:
+
 ./comsole.py
+
+### Testing
+
+All the test are defined in the test folder
+#### pyhton test case
+- unittest module
+- File extension .py
+- Files and folders star with test_
+- Organization:for models/base.py, unit tests in: tests/test_models/test_base.py
+- Execution command: python3 -m unittest discover tests
+- or: python3 -m unittest tests/test_models/test_base.py
+
+### AUTHORS
+EDWIN AMON <edwinamon277@gmail.com>
